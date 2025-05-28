@@ -12,11 +12,13 @@
       "supportsTablet": true
     },
     "android": {
+      "googleServicesFile": "./google-services.json", 
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.sonika_ka.OrderingApp"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +39,12 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "149ea768-b4ed-43e3-8c67-b7047dcbbaa1"
+      }
     }
   }
 }
