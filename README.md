@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/6b7cd137-6176-4ecd-940b-9ae40dba6b0e
+
 Get started
 1. Install dependencies
 
@@ -11,6 +15,7 @@ Get started
    ```bash
 npm run reset-project
 
+```bash
 OrderingApp/
 ├── app/
 │   ├── _layout.jsx    # Root layout for navigation (Expo Router and manage all global navigation and other things)
@@ -47,6 +52,7 @@ OrderingApp/
 ├── firebase.js  
 ├── package.json
 └── README.md
+```
 
  Start the app
 
