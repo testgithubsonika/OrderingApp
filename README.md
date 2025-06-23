@@ -19,7 +19,7 @@ npm run reset-project
 OrderingApp/
 ├── app/
 │   ├── _layout.jsx    # Root layout for navigation (Expo Router and manage all global navigation and other things)
-│   ├── Cart.jsx               # Cart screen
+│   ├── Cart.jsx               # Cart screen // main page
 │   ├── MenuList.jsx           # Menu list screen (like index as main screen)
 │   ├── OrderConfirmation.jsx  # Order confirmation screen
 │   ├── OrderSummary.jsx       # Order summary screen
